@@ -27,6 +27,9 @@ In the ant race environment, multiple ant agents are placed in a race track. Eac
 
 The state space of each agent includes its own position and velocity, as well as the relative positions and velocities of the other agents. The action space consists of the forces applied by the ant's legs.
 
+![image](https://github.com/Praniyendeev/MARL_ANT/assets/49686621/6aff35ab-3257-455a-ba91-add2a030ac8c)
+
+
 ## Algorithm
 
 The agents are trained using the MADDPG algorithm, which is an extension of the DDPG algorithm for multi-agent settings. In MADDPG, each agent has its own actor network that determines its actions, and a critic network that estimates the value of the action given the full state of the environment. The critic is trained using the Bellman equation, and the actor is trained to maximize the output of the critic.
