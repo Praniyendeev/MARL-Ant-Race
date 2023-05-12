@@ -1,6 +1,3 @@
-# Ant Race, 
-### a virtual multi-agent race platform based on OpenAI/Gym and Mujoco
-
 # Ant Race Environment
 
 ## Overview
