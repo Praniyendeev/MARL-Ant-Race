@@ -1,0 +1,32 @@
+<mujocoinclude>
+    <actuator>
+    <motor class="ant2" joint="hip_12" gear="150"/>
+    <motor class="ant2" joint="ankle_12" gear="150"/>
+    <motor class="ant2" joint="hip_22" gear="150"/>
+    <motor class="ant2" joint="ankle_22" gear="150"/>
+    <motor class="ant2" joint="hip_32" gear="150"/>
+    <motor class="ant2" joint="ankle_32" gear="150"/>
+    <motor class="ant2" joint="hip_42" gear="150"/>
+    <motor class="ant2" joint="ankle_42" gear="150"/>
+  </actuator>
+  <sensor>
+    <!-- Positions -->
+    <jointpos name='pos_hip_122' joint='hip_12' />
+    <jointpos name='pos_hip_222' joint='hip_22' />
+    <jointpos name='pos_hip_322' joint='hip_32' />
+    <jointpos name='pos_hip_422' joint='hip_42' />
+    <jointpos name='pos_ankle_122' joint='ankle_12' />
+    <jointpos name='pos_ankle_222' joint='ankle_22' />
+    <jointpos name='pos_ankle_322' joint='ankle_32' />
+    <jointpos name='pos_ankle_422' joint='ankle_42' />
+    <!-- Velocities -->
+    <jointvel name='vel_hip_122'   joint='hip_12' />
+    <jointvel name='vel_hip_222'   joint='hip_22' />
+    <jointvel name='vel_hip_322'   joint='hip_32' />
+    <jointvel name='vel_hip_422'   joint='hip_42' />
+    <jointvel name='vel_ankle_122' joint='ankle_12' />
+    <jointvel name='vel_ankle_222' joint='ankle_22' />
+    <jointvel name='vel_ankle_322' joint='ankle_32' />
+    <jointvel name='vel_ankle_422' joint='ankle_42' />
+  </sensor>
+</mujocoinclude>
