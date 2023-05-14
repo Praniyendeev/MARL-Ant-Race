@@ -27,8 +27,7 @@ In the ant race environment, multiple ant agents are placed in a race track. Eac
 
 The state space of each agent includes its own position and velocity, as well as the relative positions and velocities of the other agents. The action space consists of the forces applied by the ant's legs.
 
-![image](https://github.com/Praniyendeev/MARL_ANT/assets/49686621/6aff35ab-3257-455a-ba91-add2a030ac8c)
-
+![image](https://github.com/Praniyendeev/MARL-Ant-Race/assets/49686621/1490dfca-0d29-498c-ba4a-3d314b108345)
 
 ## Algorithm
 
